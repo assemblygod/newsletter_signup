@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 class="display-4">Uh, oh!</h1>
+            <p class="lead">There was a problem signing you up, please try again or contact the developer.</p>
+            <hr class="my-4">
+            <p>It can be an error on the server side. So, please be patient.</p>
+            <form action="/failure" method="post">
+              <p class="lead">
+              <button class="btn btn-warning btn-lg" role="button" name="button" type="submit">Try Again</button>
+              </p>
+            </form>
+          </div>
+    </body>
+</html>
